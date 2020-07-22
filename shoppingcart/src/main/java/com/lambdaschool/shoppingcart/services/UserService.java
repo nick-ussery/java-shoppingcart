@@ -1,6 +1,7 @@
 package com.lambdaschool.shoppingcart.services;
 
 import com.lambdaschool.shoppingcart.models.User;
+import org.springframework.data.domain.Auditable;
 
 import java.util.List;
 
