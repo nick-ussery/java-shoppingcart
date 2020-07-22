@@ -1,6 +1,7 @@
 package com.lambdaschool.shoppingcart.services;
 
 import com.lambdaschool.shoppingcart.models.User;
+import org.springframework.data.domain.Auditable;
 
 import java.util.List;
 
@@ -40,4 +41,6 @@ public interface UserService
      * @return the saved user object including any automatically generated fields
      */
     User save(User user);
+
+    User findByName(String name);
 }
