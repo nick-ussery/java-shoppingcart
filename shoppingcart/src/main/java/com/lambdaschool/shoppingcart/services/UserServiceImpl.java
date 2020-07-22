@@ -74,7 +74,7 @@ public class UserServiceImpl
 
     @Override
     public User findByName(String name) {
-        private User user = userrepos.findByUsername(name);
+        User user = userrepos.findByUsername(name);
         return user;
     }
 }
